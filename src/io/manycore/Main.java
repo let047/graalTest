@@ -12,7 +12,10 @@ public class Main {
                     Class thisClass = Class.forName("io.manycore.reflection.Meng" + classCount);
                     System.out.println(thisClass.toString());
                 }
-            }
+            } 
+         } else {
+            System.out.println("Nothing to do");
         }
+
     }
 }
