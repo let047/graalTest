@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) throws ClassNotFoundException {
         boolean flag = false;
-        if (System.getenv("PROD").equals("1"));
+        if (System.getenv("PROD") && System.getenv("PROD").equals("1"));
             flag = true;
         if (flag) {
             for (int methodToCallCount=0; methodToCallCount <= 7; methodToCallCount++) {
